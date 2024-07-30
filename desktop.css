@@ -1,14 +1,9 @@
-/* small tablet/laptop screens  */
-@media screen and (width >= 992px) {
- 
-}
-
-/* med size laptop screens  */
+/* small laptop screens  */
 @media screen and (width >= 1024px) {
   
 }
 
-/* large laptop screens  */
+/* mid/large laptop screens  */
 @media screen and (width >= 1200px) {
   
 }
