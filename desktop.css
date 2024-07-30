@@ -3,7 +3,12 @@
  
 }
 
-/* med laptop screens  */
+/* med size laptop screens  */
+@media screen and (width >= 1024px) {
+  
+}
+
+/* large laptop screens  */
 @media screen and (width >= 1200px) {
   
 }
@@ -13,7 +18,7 @@
  
 }
 
-/*  wider laptop/tv screens */
+/* wider laptop/tv screens */
 @media screen and (width >= 1600px) {
   
 }
