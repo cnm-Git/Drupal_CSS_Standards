@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica/Helvetica.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica_Neue";
+  src: url("../fonts/Helvetica/Helvetica\ Neue\ Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans_light";
+  src: url("../fonts/OpenSans/OpenSans-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans_reg";
+  src: url("../fonts/OpenSans/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans_med";
+  src: url("../fonts/OpenSans/OpenSans-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans_semiBold";
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans_bold";
+  src: url("../fonts/OpenSans/OpenSans-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans_xBold";
+  src: url("../fonts/OpenSans/OpenSans-ExtraBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Asap_reg";
+  src: url("../fonts/Woff/Asap-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Asap_med";
+  src: url("../fonts/Woff/Asap-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Asap_semiBold";
+  src: url("../fonts/Woff/Asap-SemiBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Asap_bold";
+  src: url("../fonts/Woff/Asap-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
