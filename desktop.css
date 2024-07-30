@@ -1,0 +1,439 @@
+/*   */
+@media screen and (width >= 992px) {
+  /******* Header *****************/
+
+  .featured-top {
+    padding: 0.5rem 0;
+  }
+
+  .featured-top #block-social-contactbar .field--name-body {
+    height: auto;
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.3rem;
+    margin: 0 auto;
+  }
+
+  .featured-top #block-social-contactbar .field--name-body > p {
+    height: auto;
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .featured-top #block-social-contactbar .field--name-body > p:first-of-type {
+    border-right: 1px solid var(--white);
+  }
+
+  .featured-top
+    #block-social-contactbar
+    .field--name-body
+    > p:first-of-type
+    a:not(:last-of-type) {
+    margin-right: 0.3rem;
+  }
+
+  .featured-top #block-social-contactbar .field--name-body > p:first-of-type a {
+    padding: 0;
+  }
+
+  .featured-top #block-social-contactbar .field--name-body > div {
+    width: 85%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .featured-top #block-social-contactbar .field--name-body > div p a {
+    padding: 0.3rem 0;
+    font-size: 1.1rem;
+  }
+
+  .featured-top #block-social-contactbar .field--name-body div p span {
+    display: block;
+  }
+
+  .featured-top #block-social-contactbar .field--name-body div p:last-of-type {
+    display: flex;
+    align-items: center;
+  }
+
+  .featured-top #block-social-contactbar .field--name-body div p span {
+    display: block;
+    color: var(--white);
+    width: 40px;
+    font-size: 1.25rem;
+    text-align: left;
+  }
+
+  .featured-top
+    #block-social-contactbar
+    .field--name-body
+    > div
+    p:first-of-type
+    span {
+    text-align: right;
+  }
+
+  .featured-top
+    #block-social-contactbar
+    .field--name-body
+    > div
+    p:first-of-type
+    span
+    i {
+    transform: rotate(-45deg) translate(0, -3px);
+  }
+
+  /************* Front Page *********/
+  .path-frontpage
+    .block-views-blockhomepage-slideshow-block-1
+    .view-homepage-slideshow
+    .view-header {
+    padding: 2.3rem 1.1rem 0;
+  }
+
+  .path-frontpage
+    .block-views-blockhomepage-slideshow-block-1
+    .view-homepage-slideshow
+    .view-header
+    h2 {
+    font-size: 1.55rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph {
+    max-height: 600px;
+    display: grid;
+    grid-template-areas: "img text";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1.5rem;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph
+    .field--name-field-inline-image-s- {
+    display: block;
+    margin: 0;
+    grid-area: img;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph
+    .field--name-field-inline-image-s-
+    .field__item {
+    margin: 0;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph
+    .field--name-field-inline-image-s-
+    .field__item,
+  .path-frontpage
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph
+    .field--name-field-inline-image-s-
+    img {
+    height: 100%;
+    max-height: 600px;
+  }
+
+  .path-frontpage
+    #block-views-block-homepage-slideshow-block-2
+    .view-homepage-slideshow
+    .view-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph
+    .field--name-field-inline-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    grid-area: text;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph
+    .field--name-field-inline-text
+    h2,
+  .path-frontpage
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph
+    .field--name-field-inline-text
+    h4 {
+    text-align: left;
+    padding: 0;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph
+    .field--name-field-inline-text
+    p {
+    max-width: 600px;
+    text-align: left;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-inline-video-and-text
+    .paragraph {
+    grid-template-columns: 60% 40%;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-inline-video-and-text
+    .paragraph
+    .field--name-field-inline-video
+    iframe {
+    height: 400px;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-inline-video-and-text
+    .paragraph
+    .field--name-field-inline-texts {
+    height: auto;
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-field-inline-video-and-text
+    .paragraph
+    .field--name-field-inline-texts
+    h2,
+  .path-frontpage
+    .node__content
+    .field--name-field-inline-video-and-text
+    .paragraph
+    .field--name-field-inline-texts
+    p {
+    margin: 0px 0 3rem;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-body
+    .hm_sec_cont
+    #hm_sec_services
+    #hm_sec_rentals
+    p,
+  .path-frontpage
+    .node__content
+    .field--name-body
+    .hm_sec_cont
+    #hm_sec_services
+    #hm_sec_storage
+    p {
+    max-width: 340px;
+  }
+
+  .path-frontpage
+    .node__content
+    .field--name-body
+    .hm_sec_cont
+    #hm_sec_services
+    #hm_sec_rentals
+    p {
+    float: right;
+  }
+
+  /**************** Meet the Team **************/
+
+  #block-views-block-meet-the-team-block-1 .view-meet-the-team .view-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /******************** Webform confirmation ***************/
+  .node--type-webform .webform-confirmation .webform-confirmation__message p {
+    width: 600px;
+  }
+
+  /************ Footer ********************/
+  .site-footer
+    .site-footer__bottom
+    .region-footer-fifth
+    #block-footer
+    .field--name-body
+    #ftr_dtl_cont {
+    padding: 50px 0 25px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .site-footer
+    .site-footer__bottom
+    .region-footer-fifth
+    #block-footer
+    .field--name-body
+    #ftr_dtl_cont
+    #ftr_contact_cont {
+    height: auto;
+    display: block;
+  }
+
+  .site-footer
+    .site-footer__bottom
+    .region-footer-fifth
+    #block-footer
+    .field--name-body
+    #ftr_dtl_cont
+    #ftr_connect_cont {
+    margin-top: 0;
+  }
+
+  .site-footer
+    .site-footer__bottom
+    .region-footer-fifth
+    #block-footer
+    .field--name-body
+    #ftr_dtl_cont
+    #ftr_quote {
+    height: auto;
+    width: auto;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .site-footer
+    .site-footer__bottom
+    .region-footer-fifth
+    #block-footer
+    .field--name-body
+    #ftr_cpyrt {
+    margin: 0 auto 0;
+    padding: 1.5rem 0 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: none;
+    border-top: 1px solid #353535;
+  }
+}
+
+/*   */
+@media screen and (width >= 1200px) {
+  /*************************** Header ******************************/
+  .path-frontpage
+    .block-views-blockhomepage-slideshow-block-1
+    .view-homepage-slideshow
+    .view-header {
+    max-height: 300px;
+    max-width: 450px;
+    padding: 3rem 1.3rem 0;
+    left: 24%;
+  }
+
+  .path-frontpage
+    .block-views-blockhomepage-slideshow-block-1
+    .view-homepage-slideshow
+    .view-header
+    h2 {
+    font-size: 1.65rem;
+    margin-bottom: 1.8rem;
+  }
+
+  /********************** Frontpage **************************/
+  .path-frontpage
+    .node__content
+    .field--name-body
+    .hm_sec_cont
+    #hm_sec_services
+    #hm_sec_rentals,
+  .path-frontpage
+    .node__content
+    .field--name-body
+    .hm_sec_cont
+    #hm_sec_services
+    #hm_sec_storage {
+    padding: 3rem 3.5rem 1.5rem;
+  }
+
+  /******************* About US *********************/
+  .page-node-9
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph,
+  .node--type-services .node__content,
+  .page-node-2
+    .node__content
+    .field--name-field-basic-inline-text-and-imag
+    .paragraph {
+    gap: 0 4rem;
+  }
+
+  .node--type-webform
+    .node__content
+    .field--name-field-address-and-map
+    .paragraph {
+    gap: 0 2rem;
+  }
+}
+
+/*   */
+@media screen and (width >= 1400px) {
+  /********************** Frontpage **************************/
+  .path-frontpage
+    .node__content
+    .field--name-body
+    .hm_sec_cont
+    #hm_sec_services
+    #hm_sec_rentals,
+  .path-frontpage
+    .node__content
+    .field--name-body
+    .hm_sec_cont
+    #hm_sec_services
+    #hm_sec_storage {
+    padding: 3rem 4.5rem 1.5rem;
+  }
+}
+
+/*   */
+@media screen and (width >= 1600px) {
+  /********************** Frontpage **************************/
+  .path-frontpage
+    .node__content
+    .field--name-body
+    .hm_sec_cont
+    #hm_sec_services
+    #hm_sec_rentals,
+  .path-frontpage
+    .node__content
+    .field--name-body
+    .hm_sec_cont
+    #hm_sec_services
+    #hm_sec_storage {
+    padding: 3rem 6.5rem 1.5rem;
+  }
+}
+
+/*   */
+@media screen and (width >= 1800px) {
+}
