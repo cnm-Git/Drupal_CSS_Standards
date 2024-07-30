@@ -3,7 +3,9 @@
 /* Colors */
 :root {
   --color-primary: #f68937;
+  --color-secondary: #4b5c23;
   --color-accent1: #0079c2;
+  --color-accent2: #2349c2;
   --white: #fff;
   --labels-color1: #0079c2;
   --text-color: #484847;
@@ -11,6 +13,8 @@
   --link-color: #484847;
   --link-color-active: #0079c2;
   --placeholder-color: #cccccc;
+  --button-prim-color: #eeeeee;
+  --button-hover-color: #222222;
   --grey-bg: #ebebeb;
   --shadow: 2px 2px 48px 2px #b4b2b240;
 }
