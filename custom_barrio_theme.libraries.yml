@@ -6,6 +6,7 @@ global-styling:
   css:
     component:
       css/style.css: {}
+      css/fonts.css: {}
       css/colors.css: {}
       css/commons.css: {}
       css/mobile.css: {}
